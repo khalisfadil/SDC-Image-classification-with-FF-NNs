@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image_dataset_from_directory
 
-imdir = "GTSRB/Final_Training/Images/**/*.jpg"
+imdir = "GTSRB/Final_Training/Images"
 
 
 def process(image, label):

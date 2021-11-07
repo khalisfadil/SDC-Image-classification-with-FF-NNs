@@ -5,7 +5,7 @@ from tensorflow import keras
 
 from utils import get_datasets, get_module_logger, display_metrics
 
-imdir = "GTSRB/Final_Training/Images/**/*.jpg"
+imdir = "GTSRB/Final_Training/Images"
 
 
 def create_network():
